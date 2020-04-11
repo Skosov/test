@@ -1,0 +1,33 @@
+
+[
+    {
+        "id": 1,
+        "userName" : "Sergey",
+        "userCommentText" : "Some Text1",
+        "userRating": 5
+    },
+    {
+        "id": 2,
+        "userName" : "Anton",
+        "userCommentText" : "Some Text2",
+        "userRating": 4
+    },
+    {
+        "id": 3,
+        "userName" : "Vlad",
+        "userCommentText" : "Some Text3",
+        "userRating": 2
+    },
+    {
+        "id": 4,
+        "userName" : "Katya",
+        "userCommentText" : "Some Text4",
+        "userRating": 5
+    },
+    {
+        "id": 5,
+        "userName" : "John",
+        "userCommentText" : "Some Text5",
+        "userRating": 3
+    }
+]

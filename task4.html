@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="rus">
+<head>
+  <meta charset="UTF-8">
+  <title>Классы</title>
+  <link href="reviews-style.css" rel="stylesheet">
+</head>
+<body>
+  <section class="comment-feed">
+          <h2>Отзывы</h2>
+          <ul class="comment-list" type="none">
+       <!--    <li class="user-comment">
+        <h3 class ="username">Васек</h3>
+        <p class="commentText">Самый лучший ресторан в городе!</p>
+        <p class = "rating-number">5</p>
+        <div class = "del"></div>
+        <div class = "edit"></div>
+       </li>
+       <li class="user-comment">
+          <h3 class ="username">Санек</h3>
+          <p class="commentText">Долгое обслуживание, но блюда классные</p>
+          <p class = "rating-number">4</p> 
+          <div class = "del"></div>
+          <div class = "edit"></div>        
+       </li> -->
+          </ul>
+          <form method="post" class="comment-form">
+              
+            <div class="comment-inner">
+              <input class = "input-name" type="text" placeholder="Имя" required>
+                <label class="comment-label" for="comment-textarea">Ваш отзыв:</label>
+                <textarea class="comment-field comment-area" rows="3" placeholder="Отзыв" required id="comment-textarea"></textarea>
+                <label class="comment-label" for="comment-textarea">Ваша оценка:</label>
+                <input class = "input-number" type="number" min='1' max="5" value="5" placeholder="Оценка" required>  
+            <span class="text-counter">Использовано <span class="char-counter">0</span>/200 символов</span>
+            <button class="button submit-button" type="submit">Отправить</button>
+          </form>
+    </section>
+<script src = "task4.js"></script>
+</body>
+</html>
